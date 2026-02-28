@@ -135,14 +135,18 @@ Toggle realistic sample tasks on/off for:
 
 ## Project Structure
 
+```
 app/
   (tabs)/
-    index.tsx        # Today
-    explore.tsx      # Analytics
-    settings.tsx     # Settings
-  add.tsx            # Add Task
-  focus.tsx          # Focus Mode
-  onboarding.tsx     # Personalization
+    index.tsx
+  today.tsx
+  explore.tsx
+  analytics.tsx
+  settings.tsx
+  add.tsx
+  focus.tsx
+  onboarding.tsx
+  personalization.tsx
 
 components/
   task-card.tsx
@@ -156,6 +160,7 @@ lib/
   types.ts
   storage.ts
   demo-data.ts
+```
 
 ---
 
