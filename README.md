@@ -138,15 +138,15 @@ Toggle realistic sample tasks on/off for:
 ```
 app/
   (tabs)/
+    _layout.tsx
+    add-placeholder.tsx
     index.tsx
-  today.tsx
-  explore.tsx
-  analytics.tsx
-  settings.tsx
+    explore.tsx
+    settings.tsx
+  _layout.tsx
   add.tsx
   focus.tsx
   onboarding.tsx
-  personalization.tsx
 
 components/
   task-card.tsx
