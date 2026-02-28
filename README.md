@@ -57,20 +57,16 @@ An intelligent task prioritization and adaptive focus scheduling app built with 
 FocusFlow transforms a simple task list into a personalized daily execution system.  
 Instead of just storing tasks, it builds a realistic schedule based on urgency, time estimates, and your individual focus rhythm.
 
----
+## Features
 
-## ✨ Features
-
-### 🧠 Personalized Onboarding
+### Personalized Onboarding
 
 - Select peak focus time (morning / afternoon / evening)
 - Set daily capacity (max hours per day)
 - Define focus duration and break length
 - Automatically generates a personalized work window
 
----
-
-### 📅 Intelligent Scheduling
+### Intelligent Scheduling
 
 - Urgency-based prioritization
 - Automatic deferral when daily capacity is exceeded
@@ -80,9 +76,7 @@ Instead of just storing tasks, it builds a realistic schedule based on urgency, 
   - **Deferred Tasks**
   - **Waiting Tasks**
 
----
-
-### ⚡ Focus Mode
+### Focus Mode
 
 One-tap **“What should I work on now?”** flow:
 
@@ -93,9 +87,7 @@ One-tap **“What should I work on now?”** flow:
 - Handles early completion or overtime
 - Logs actual time spent
 
----
-
-### ⏱ Adaptive Focus Timer
+### Adaptive Focus Timer
 
 Supports structured focus sessions.
 
@@ -113,9 +105,7 @@ FocusFlow will:
 4. Repeat until completion  
 5. Ask for final confirmation  
 
----
-
-### 📊 Analytics
+### Analytics
 
 - Time logged
 - Estimation accuracy
@@ -123,9 +113,7 @@ FocusFlow will:
 - Completion history
 - Clear analytics data option
 
----
-
-### 🧪 Demo Mode
+### Demo Mode
 
 Toggle realistic sample tasks on/off for:
 
@@ -135,7 +123,7 @@ Toggle realistic sample tasks on/off for:
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 - React Native
 - Expo
@@ -145,7 +133,7 @@ Toggle realistic sample tasks on/off for:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 app/
   (tabs)/
@@ -171,7 +159,7 @@ lib/
 
 ---
 
-## 🧮 Scheduling Logic
+## Scheduling Logic
 
 Each task is assigned a dynamic urgency score:
 
@@ -184,16 +172,16 @@ Overflow tasks are automatically deferred.
 
 ## 🚀 Getting Started
 
-### 1️⃣ Install dependencies
+### Install dependencies
 
 npm install
 
-### 2️⃣ Install required Expo packages
+### Install required Expo packages
 
 npx expo install react-native-date-picker  
 npx expo install @react-native-async-storage/async-storage  
 
-### 3️⃣ Start development server
+### Start development server
 
 npx expo start
 
@@ -201,7 +189,7 @@ Scan the QR code with Expo Go or run on simulator.
 
 ---
 
-## 📌 Current Status
+## Current Status
 
 MVP complete with:
 
@@ -211,9 +199,7 @@ MVP complete with:
 - Analytics dashboard
 - Demo mode
 
----
-
-## 🔮 Future Improvements
+## Future Improvements
 
 - Cloud sync (Supabase)
 - Authentication
@@ -221,9 +207,7 @@ MVP complete with:
 - Push notifications
 - Weekly planning mode
 
----
-
-## 🎯 Why This Project Exists
+## Why This Project Exists
 
 Most productivity tools optimize for organization.
 
@@ -232,8 +216,3 @@ Most productivity tools optimize for organization.
 It reduces decision fatigue by answering one question clearly:
 
 > What should I work on right now?
-
----
-
-## Project Structure
-
