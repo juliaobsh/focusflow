@@ -51,3 +51,31 @@ export const Fonts = Platform.select({
     mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
   },
 });
+
+// ── FocusFlow additions ───────────────────────────────────────────────────────
+
+export const PriorityColors: Record<number, string> = {
+  3: '#ef4444',
+  2: '#f59e0b',
+  1: '#6ee7b7',
+};
+
+export const PriorityLabels: Record<number, string> = {
+  3: 'High',
+  2: 'Medium',
+  1: 'Low',
+};
+
+export const Categories = [
+  'Work', 'School', 'Health', 'Personal', 'Errands', 'Social',
+];
+
+export const TimeOptions = [
+  { label: '15 min', value: 15 },
+  { label: '30 min', value: 30 },
+  { label: '45 min', value: 45 },
+  { label: '1 hour', value: 60 },
+  { label: '1.5 hrs', value: 90 },
+  { label: '2 hours', value: 120 },
+  { label: '3 hours', value: 180 },
+];
